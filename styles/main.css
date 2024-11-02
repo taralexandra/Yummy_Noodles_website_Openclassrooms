@@ -1,0 +1,101 @@
+/* Design System */
+
+
+/* Modules */
+@import url("modules/appBar.css");
+@import url("modules/cta.css");
+@import url("modules/redBanner.css");
+@import url("modules/contactInfo.css");
+@import url("modules/footer.css");
+
+/* Pages */
+@import url("pages/home.css");
+@import url("pages/menu.css");
+@import url("pages/contact.css");
+
+
+:root {
+    /* Colors */
+    --red-highlight: #D8483D;
+    --noir: #000000;
+    --gris: #F3F3F3;
+    --blanc: #FFFFFF;
+
+     /* Texts */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+
+}
+
+body {
+    background-color: var(--gris);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--noir);
+
+}
+
+h1 {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    color: var(--noir);
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--noir);
+    text-decoration: underline var(--red-highlight);
+}
+
+.color-highlight {
+    color: var(--red-highlight);
+}
+
+.text-highlight {
+    font-weight: var(--body-hightlight-font-weight);
+}
+
+/* Breakpoint pour passer version mobile */
+
+@media (max-width: 768px) {
+    :root {
+        /* Mobile Variables */
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+    
+        --body-line-height: 1.25rem;
+        --body-highlight-line-height: 1.25rem;
+        --header-line-height: 3rem;
+        --title-line-height: 1.5rem;
+      }
+
+}
