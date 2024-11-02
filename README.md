@@ -11,6 +11,10 @@ If you want to explore the courses i followed, please note everything is in fren
 
 The first course (the figma steps) :
 
+[Créez une maquette web avec Figma](https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-web-avec-figma/7456781-tirez-le-maximum-de-ce-cours)
+
 The second course (the integration with HTML and CSS) :
+
+[Intégrez une maquette Figma en HTML/ CSS](https://openclassrooms.com/fr/courses/8242681-integrez-une-maquette-figma-en-html-css) 
 
 Enjoy ! 🙂
